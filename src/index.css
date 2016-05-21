@@ -1,0 +1,342 @@
+.head{
+	width: 100%;
+	height: auto;
+	background-image: url("../src/img/Z-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.head-pad{
+	margin-top: 2em;
+}
+
+.head-center{
+	text-align: center;
+}
+
+#auto-slogan{
+	position: relative;
+	width: 100%;
+	margin-bottom: 4em;
+}
+
+#auto-slogan li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	font-size: 24px;
+	font-weight: 100;
+	width: 100%;
+	transition: all 0.8s ease-out;
+}
+.head-center a{
+	font-size: 20px;
+	font-weight: 100;
+}
+.head-top{
+	margin-top: 6em;
+}
+.head .h1{
+	font-weight: 100;
+	font-size: 50px;
+}
+#auto-slogan li:first-child{
+	opacity: 1;
+}
+.for-positoin{
+	position: relative;
+}
+#auto-iphone{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+#auto-iphone li{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	float: right;
+	transition:all 0.5s ease-in-out;
+}
+#auto-iphone li img{
+	height: auto;
+	border: 0;
+}
+#auto-iphone li:first-child{
+	opacity: 1;
+}
+.four-circle{
+	position: absolute;
+	bottom: -2em;
+	left: 4em;
+}
+.four-circle li{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	float: left;
+	margin-left: 10px;
+}
+/*内容部分*/
+.greycountry{
+	color: #999;
+}
+.appstore img{
+	width:203px;
+	height: 60px;
+}
+.mixbtn{
+	border: 1px solid #999;
+	border-radius: 3px;
+	height: 33px;
+	width: 220px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+}
+.mixbtn .dropdown{
+	width:60px;
+	float: left;
+}
+.mixbtn #input-noneouter{
+	border: none;
+	outline: none;
+	float: left;
+	display: block;
+}
+.mixbtn .longerwidth{
+	min-width: 315px;
+	margin: 7px 0 0 -3px;
+}
+.download{
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+.forup{
+	margin-top: -24px;
+}
+.content{
+	padding-top: 4em;
+}
+.content h3{
+	color: #404040;
+	font-weight: 200;
+	font-size: 34px;
+}
+.content .h6{
+	color:#404040;
+	font-weight: 200;
+	font-size: 14px;
+}
+/*中间微软安卓图标部分*/
+.second-part{
+	font-size: 20px;
+	color:#404040;
+	font-weight:300;
+}
+.youeamil{
+	outline: none;
+	padding: 0.5em 8em;
+	font-size: 18px;
+	border: 1px solid #404040;
+	font-weight: 300;
+	margin: 1em;
+}
+.mask img{
+	margin-left:4px;
+	opacity: 0.3;
+}
+.mask img:hover{
+	opacity: 1;
+}
+.widwons{
+	padding-bottom: 4em;
+}
+/*wait 部分*/
+.wait{
+	background-color: #f7f7f7;
+	padding-top: 12em;
+	padding-bottom: 8em;
+}
+.wait h3{
+	font-size: 56px;
+	color:#404040;
+	font-weight:100;
+}
+.wait p{
+	margin-top: 2em;
+	padding-left: 2em;
+	width:84%;
+	color: #404040;
+	font-weight: 200;
+	font-size: 21px;
+}
+/*Foucs部分*/
+#h4{
+	margin-top: 1em;
+	color: #404040;
+	font-size:56px;
+	font-weight:100;
+}
+.focus .see{
+	font-size: 20px;
+	font-weight: 200;
+}
+.focus .glyphicon{
+	margin-left: 6px;
+}
+.features-right{
+	margin-top: 5em;
+	padding-left: 9em;
+	padding-bottom: 6em;
+}
+.blue,.red,.green,.yellow{
+	margin-left: 4px;
+	margin-right: 2px;
+	color: #007aff;
+	font-weight: 300;
+	font-size: 20px;
+}
+.blue:hover,.red:hover,.green:hover,.yellow:hover{
+	text-decoration: none;
+}
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+.yellow{
+	color: yellow;
+}
+.focus .blue-part{
+	font-size: 18px;
+	font-weight: 200;
+}
+.features-right li{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+/*一台Mac部分*/
+.bigmac{
+	background-color: #f7f7f7;
+	padding-bottom: 2em;
+	padding-top: 8em;
+}
+.bigmac .h3{
+	font-size: 52px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: 100;
+	color:#404040;
+}
+.bigmac .part{
+	font-size: 20px;
+	color: #404040;
+	font-weight: 200;
+}
+/*三台Mac*/
+.desktop .h3{
+	margin: 3em 0 2em 0;
+	font-weight: 100 ;
+	font-size: 56px;
+}
+.desktop{
+	padding-bottom: 8em;
+}
+.desktop .desktop-speical{
+	transition: all 0.5s;
+}
+.desktop .desktop-speical:hover{
+	opacity: 0.4;
+}
+/*mission部分*/
+.mission{
+	background-color: #f7f7f7;
+	padding-bottom: 8em;
+}
+.mission .h2{
+	font-size: 56px;
+	font-weight: 100;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+.mission .p{
+	font-size: 26px;
+	font-weight: 200;
+	margin: .5em 0 1.5em 0;
+}
+
+.mission .blue{
+	color: #007aff;
+}
+.mission .yellow{
+	color: #ffcc00;
+}
+.mission .green{
+	color: #4cd964;
+}
+
+.mission #mission-part{
+	font-size: 21px;
+	font-weight: 200;
+	color: #404040;
+	text-align: left;
+}
+/*unpgrade部分*/
+.upgrade .h1{
+	margin-top: 3em;
+	font-size: 56px;
+	font-weight: 200;
+}
+.upgrade .special{
+	margin-top: 5em;
+	padding-bottom: 6em;
+	padding-left: 9em;
+}
+.upgrade .slide{
+	padding-top: 8em;
+}
+.upgrade li{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.upgrade li .firstpart span{
+	font-size: 20px;
+	margin-left: .2em;
+}
+.upgrade li p{
+	font-size: 18px;
+	font-weight: 200;
+	margin-top: .5em;
+}
+.upgrade .lastone{
+	margin-top: 4em;
+}
+.upgrade .lastone img{
+	width:203px;
+	height: 60px;
+}
+/*最后固定部分*/
+.footer .special{
+	font-weight: 200;
+}
+.fix-logo{
+	display: inline;
+	position: fixed;
+	right: 2em;
+	bottom: 3em;
+	z-index: 999;
+}
+.appstore img,.fix-logo img{
+	width:203px;
+	height: 60px;
+}
+

@@ -1,0 +1,269 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title timyo
+		link(href="../src/css/bootstrap.min.css" rel="stylesheet")
+		link(href="../src/index.css" rel="stylesheet")
+	body
+		// 头部
+		.head
+			.container
+				.row.head-pad
+					.col-lg-3.col-sm-3.col-md-3.col-xm-4.logo
+						img(src="../src/img/logo.png")
+					.col-md-4.col-sm-5.btn-group.pull-right
+						a.btn(href="#") Misson
+						a.btn(href="#") FAQ
+						a.btn(href="#") Blog
+						.btn
+							img(src="../src/img/FR-flag-icon.png")
+						.btn
+							img(src="../src/img/US-flag-icon.png")
+				.row.head-top
+					.col-md-7.col-xs-7.head-center
+						ul.list-unstyled#auto-slogan
+							li It's about time;
+							li Forget inbox zero;
+							li 'Real-time'isn't for real;
+						.h1 email that matters,
+						.h1 when it matters
+						a(href="#") Watch the video
+							span.glyphicon.glyphicon-play-circle
+					.col-md-4.col-xs-4.pull-right.for-positoin
+						ul.list-unstyled#auto-iphone
+							li
+								img(src="../src/img/slide-1.png")
+							li
+								img(src="../src/img/slide-2.png")
+							li
+								img(src="../src/img/slide-3.png")
+							li
+								img(src="../src/img/slide-4.png")
+						ul.four-circle.list-unstyled
+							li
+							li
+							li
+							li
+		// 主题内容
+		.content
+			.container
+				h3.text-center Available now for ios!
+				.h6.text-center Currently available for Gamil and Google Apps-more providers coming soon.
+				br
+				br
+				.appstore.text-center
+					img(src="../src/img/download-timyo.png")
+				br
+			//搜索框部分
+			.container.text-center.download
+				.mixbtn
+					.dropdown
+						.dropdown-toggle(data-toggle="dropdown")
+							img(src="../src/img/images/38_03.png")
+							span.caret
+						ul.longerwidth.dropdown-menu
+							li
+								a(href="#")
+									img(src="../src/img/images/38_07.png")
+									| Azerbaijian(Azerbaycan)
+									span.greycountry  +994
+							li
+								a(href="#")
+									img(src="../src/img/images/38_10.png")
+									| Bahamas
+									span.greycountry  +1242		
+							li
+								a(href="#")
+									img(src="../src/img/images/38_12.png")
+									| Bahrain
+									span.greycountry  +973
+							li
+								a(href="#")
+									img(src="../src/img/images/38_14.png")
+									| Bangladesh
+									span.greycountry  +880
+							li.divider
+							li
+								a(href="#")
+									img(src="../src/img/images/38_16.png")
+									| Barbados
+									span.greycountry  +1246
+							li
+								a(href="#")
+									img(src="../src/img/images/38_18.png")
+									| BELARUS(ljlsgi)
+									span.greycountry  +375
+					input#input-noneouter(type="text" placeholder="(021) 555-5555")
+				button.btn.forup Text me a link	
+				hr
+			//中间安卓微软图标部分
+			br
+			br
+			.container.text-center.widwons
+				.second-part If you are on Andriod or Windows Phone, we are working on version for you
+				.second-part Enter your email and choose your OS below to be notified.
+				input.youeamil(type="text" placeholder="Your email address") 
+				.second-part Choose your OS to submit
+				span.mask
+					img(src="../src/img/Z.jpg")
+					img(src="../src/img/2Q==.jpg")
+			//Wait 部分
+			.wait
+				.container
+					h3.text-center.
+						Wait!
+						<br/>
+						You don't need to answer every email as soon as it hits your inbox.
+					.row
+						.col-md-5
+							img(src="../src/img/iphone-on-table-small.png")
+						.col-md-7
+							p.
+								That's why we've reimagined your inbox and created Agenda View to let you know at a glance which emails are important and when you need to deal with them. With Timyo, you can communicate more meaningfully by sending and receiving emails with clear expectations that are already prioritized by time.
+								<br/>
+								<br/>
+								Now you can focus on the email that matters, when it matters.
+			// Focuson 部分
+			.focus.container
+				.container
+					.h4#h4.text-center Focus on What matters today
+					<br/>
+					.text-center
+						a.see(href="###") See how Timyo helps you
+							span.glyphicon.glyphicon-play-circle
+				<br/>
+				.container.row
+					.col-md-5.text-center
+						img(src="../src/img/focus-on-what-matters.jpg")
+					ul.col-md-7.list-unstyled.features-right
+						li
+							a.blue(href="#")
+								img(src="../src/img/blue-box.png")
+								span Manage important email by time
+								span.glyphicon.glyphicon-play-circle
+							p.blue-part.
+								No need to clean out your inbox. Select only the emails that matter to you, assign a date and don't worry about the rest.
+						li
+							a.yellow(href="#")
+								img(src="../src/img/yellow-box.png")
+								span Receive email already prioritized by time
+								span.glyphicon.glyphicon-play-circle
+							p.blue-part.
+								Timyo users send and receive emails that are already prioritized by time.
+								Send email with clear expectations and receive better replies.
+						li
+							a.green(href="#")
+								img(src="../src/img/green-box.png")
+								span Oversee email through Agenda View
+								span.glyphicon.glyphicon-play-circle
+							p.blue-part.
+								Stay organized at a glance!Use Agenda View to easily manage your time without leaving your inbox.
+						li
+							a.red(href="#")
+								img(src="../src/img/red-box.png")
+								span Get reminders on pending replies
+								span.glyphicon.glyphicon-play-circle
+							p.blue-part.
+								Because your email is sent with clear expectations, Reply Tracker lets you know when a reply is still pending or overdue. 
+			// 一台Mac部分
+			.bigmac
+				.container
+					.row
+						.bigmac-left.col-md-5
+							img(src="../src/img/email-on-computer2.png")
+						.bigmac-right.col-md-5.pull-right
+							.h3.
+								Give the gift of
+								<br/>
+								clear expectations
+							.part.
+								When recipients open your email, they will see immediately a clear, simple, and polite message letting them know when you would like them to respond. By giving the gift of clear expectations, you give them other gifts as well: peace of mind, increased productivity, and, ultimately, time.
+								<br/>
+								<br/>
+								And it’s hard to think of a better gift than that.
+			//三台Mac部分
+			.desktop
+				.container
+					.h3.text-center Timyo works on you desktop as well
+					ul.row.list-unstyled.container
+						li.col-md-4
+							img.img-responsive(src="../src/img/apple-mail-desktop-screen.png")
+						li.col-md-4.desktop-speical
+							a(href="###")
+								img.img-responsive(src="../src/img/gmail-desktop-screen.png")
+						li.col-md-4
+							img.img-resposive(src="../src/img/outlook-desktop-screen.png")
+					<br>
+					.text-center
+						img(src="../src/img/chrome-store-btn3.png")
+			//mission部分
+			.mission
+				.container
+					.h2.text-center We are on a mission
+					ul.row.list-unstyled
+						li.col-md-4.text-center
+							.clarity-logo
+								img(src="../src/img/clarity.png")
+							.p.yellow Clarity
+							p#mission-part.
+								Email remains the #1 tool today’s workforce uses to communicate. Unfortunately, it was not designed for the ‘always on’ expectations that have become the norm. Thanks to Timyo, users can now benefit from clear and proactive communication.
+						li.col-md-4.text-center
+							.clarity-logo
+								img(src="../src/img/productivity.png")
+							.p.blue Productivity
+							p#mission-part.
+								By helping you stay focused on important emails when they matter to you, Timyo helps you cut through the clutter. And when the people you work with use Timyo too, your email will come already prioritized by due date.
+						li.col-md-4.text-center
+							.clarity-logo
+								img(src="../src/img/peace2.png")
+							.p.green Peace
+							p#mission-part.
+								At Timyo, we believe it's time for email to make your life easier again. With email prioritized by time and features like Agenda View and Reply Tracker, Timyo takes the stress out of email and puts something much better in its place: peace.
+			//upgrade部分
+			.upgrade
+				.container
+					.h1.text-center Upgrade to business class email
+					.row
+						.col-md-5.slide
+							img(src="../src/img/iphone-register.png")
+						ul.col-md-7.list-unstyled.special
+							li
+								.firstpart
+									img(src="../src/img/red-box.png")
+									span Easy setup
+								p Enter you email account and password and voild! You've got Timyo.
+							li
+								.firstpart
+									img(src="../src/img/red-box.png")
+									span Existing account
+								p Timyo isn't another new email address to manage — it's a way to better manage your existing accounts.
+							li
+								.firstpart
+									img(src="../src/img/red-box.png")
+									span Free & Flexible
+								p You can switch back and forth between Timyo and your providers' apps whenever you want to (but we don't think you'll want to).
+							li
+								.firstpart
+									img(src="../src/img/red-box.png")
+									span Private & Secure
+								p Timyo never stores, processes, or transmits your data through third-party servers. Passwords are never stored on our servers.
+							li.lastone
+								img(src="../src/img/download-timyo.png")
+		// 最后结尾
+		.footer
+			hr
+			.h5.special.text-center Timyo is a patented solution: US 20150007048A1
+			.h5.text-center
+				a(href="###") Privacy Policys丨
+				a(href="###") Security丨
+				a(href="###") Press Inquiries丨
+				a(href="###") About Us
+			.h6.text-center.
+				@2015 Timyo.All rights reserved.
+		// 固定logo
+		a.fix-logo(href="###")
+			img(src="../src/img/download-timyo.png")
+		script(src="../src/index.js")
+		script(src="http://cdn.bootcss.com/jquery/2.0.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" )
